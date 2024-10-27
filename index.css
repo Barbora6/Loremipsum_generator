@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: white;
+}
+
+.form-section {
+    width: 700px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-section h1 {
+   padding-top: 100px;
+}
+
+.form-section label {
+    margin-right: 10px;
+}
+
+.form-section input[type='number'] {
+margin-bottom: 20px;
+font-size: 18px;
+text-align: center;
+outline: none;
+}
+
+.form-section input[type='submit'] {
+background-color: orange;
+color: white;
+border: none;
+border-radius: 8px;
+padding: 5px 10px;
+font-size: 18px;
+letter-spacing: 2px;
+}
+
+.form-section p {
+    font-size: 22px;
+}
